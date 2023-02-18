@@ -12,7 +12,8 @@ function generateMarkdown(data) {
   }
   // Returning data taken from user input
   return `# ${data.repoName}
-![License](${licenseBadge[0]} "License" style="height: 100px; width:100px;")
+<img src="${licenseBadge[0]}" alt="Employee data" width="50" height="60" title="License badge">
+
 ## Table of contents
 
 ## Description
