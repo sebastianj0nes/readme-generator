@@ -15,7 +15,7 @@ Professional readme generator using javascript and user input
 ## Installation
 Run 'npm install' after cloning the repo
 ## Usage
-Node must be installed on local computer
+Node must be installed on local computer. After installing all packages, then run 'node index.js' in the folder directory to create a README.
 ## Contributing
 N/A
 ## Tests
