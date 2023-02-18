@@ -37,6 +37,7 @@ ${data.testing}
 ${data.license} License. Please refer to the repository for more information.
 ## Questions
 Github profile: https://github.com/${data.github}
+</br>
 Email address: ${data.email}
 `;
 }
