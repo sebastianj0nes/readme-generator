@@ -4,15 +4,15 @@ function generateMarkdown(data) {
   const licenseBadge = [];
   // Conditional statements to check which license has been entered
   if (data.license === "MIT"){
-    licenseBadge.push("mitlicense.png")
+    licenseBadge.push("./images/mitlicense.png")
   } else if (data.license === "Apache"){
-    licenseBadge.push("apachelicense.png")
+    licenseBadge.push("./images/apachelicense.png")
   } else if (data.license === "GPU"){
-    licenseBadge.push("mitlicense.png")
+    licenseBadge.push("./images/gpulicense.png")
   }
   // Returning data taken from user input
   return `# ${data.repoName}
-<img src="${licenseBadge[0]}" alt="Employee data" width="50" height="60" title="License badge">
+<img src="${licenseBadge[0]}" alt="License badge" width="50" height="60">
 
 ## Table of contents
 
