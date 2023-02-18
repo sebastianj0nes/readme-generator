@@ -15,6 +15,13 @@ function generateMarkdown(data) {
 <img src="${licenseBadge[0]}" alt="License badge" width="50" height="60">
 
 ## Table of contents
+1. [Description](#Description)
+2. [Installation](#Installation) 
+3. [Usage](#Usage)
+4. [Contributing](#Contributing)
+5. [Tests](#Tests)
+6. [License](#License)
+7. [Questions](#Questions)
 
 ## Description
 ${data.description}
