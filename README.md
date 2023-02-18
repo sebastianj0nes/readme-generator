@@ -1,4 +1,4 @@
-# Readme Generator
+# Readme generator
 <img src="./images/mitlicense.png" alt="License badge" width="50" height="60">
 
 ## Table of contents
@@ -11,11 +11,11 @@
 7. [Questions](#Questions)
 
 ## Description
-Professional readme generator, using javascript and user input to create a readme for project repositories
+Professional readme generator using javascript and user input
 ## Installation
-Run 'npm install' after cloning the repository to your local drive
+Run 'npm install' after cloning the repo
 ## Usage
-Ensure node is installed 
+Node must be installed on local computer
 ## Contributing
 N/A
 ## Tests
@@ -25,4 +25,3 @@ MIT License. Please refer to the repository for more information.
 ## Questions
 Github profile: https://github.com/sebastianj0nes
 </br>
-Email address: jonesseb10@gmail.com
