@@ -1,8 +1,36 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-return `# ${data.repoName}
+  // Create array to push correct image address
+  const licenseBadge = [];
+  // Conditional statements to check which license has been entered
+  if (data.license === "MIT"){
+    licenseBadge.push("mitlicense.png")
+  } else if (data.license === "Apache"){
+    licenseBadge.push("apachelicense.png")
+  } else if (data.license === "GPU"){
+    licenseBadge.push("mitlicense.png")
+  }
+  // Returning data taken from user input
+  return `# ${data.repoName}
+![License](${licenseBadge[0]} "License" style="height: 100px; width:100px;")
+## Table of contents
 
-`
+## Description
+${data.description}
+## Installation
+${data.installation}
+## Usage
+${data.usage}
+## Contributing
+${data.contribution}
+## Tests
+${data.testing}
+## License
+${data.license} License. Please refer to the repository for more information.
+## Questions
+Github profile: https://github.com/${data.github}
+Email address: ${data.email}
+`;
 }
 
 module.exports = generateMarkdown;
